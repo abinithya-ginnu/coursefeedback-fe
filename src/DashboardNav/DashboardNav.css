@@ -1,0 +1,26 @@
+.login-navbar {
+    h1{
+        color: #014f86;
+    }
+    .nav-links {
+        display: flex;
+        align-items: center;
+        a{
+            padding-left: 15px !important;
+            padding-right: 15px !important;
+        }
+    }
+    .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+        font-weight: 500;
+    }
+    .login-nav-dropdown {
+        display: flex;
+        align-items: center;
+        .MuiListItemText-root {
+            text-align: left;
+        }
+    }
+    .dropdown-toggle::after {
+        margin-left: 1.255em;
+    }
+}
